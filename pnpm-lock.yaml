@@ -10,7 +10,7 @@ specifiers:
   '@xstate/cli': ^0.2.1
   '@xstate/inspect': ^0.7.0
   '@xstate/react': ^3.0.0
-  astro: ^1.0.0-beta.61
+  astro: ^1.0.0-beta.63
   autoprefixer: ^10.4.7
   framer-motion: ^6.3.16
   postcss: ^8.4.14
@@ -35,7 +35,7 @@ devDependencies:
   '@xstate/cli': 0.2.1_prettier@2.7.1
   '@xstate/inspect': 0.7.0_ws@8.8.0+xstate@4.32.1
   '@xstate/react': 3.0.0_qkj3h26yqjpoza3bh3zse7k4ye
-  astro: 1.0.0-beta.61
+  astro: 1.0.0-beta.63
   autoprefixer: 10.4.7_postcss@8.4.14
   postcss: 8.4.14
   prettier: 2.7.1
@@ -130,7 +130,7 @@ packages:
       micromark-util-character: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
       vfile-message: 3.1.2
     dev: true
 
@@ -955,8 +955,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /astro/1.0.0-beta.61:
-    resolution: {integrity: sha512-xQ1+RIumqRe4M4woVRHl9PVp1kVEG5BN28ySmsZ2xKwoTalQcCwaRA+JV6/yNiJ5G+em9lJEyoJORR2YVB751w==}
+  /astro/1.0.0-beta.63:
+    resolution: {integrity: sha512-X8cvewsQcW4TZAMilXpvd66ggathuE89B64tlWq5zVBIixyIyNf1WR/LMiKbS358/w+LPnxFMv0hoR9Y8GkPYg==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1031,7 +1031,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.1
-      caniuse-lite: 1.0.30001361
+      caniuse-lite: 1.0.30001363
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1074,7 +1074,7 @@ packages:
       chalk: 4.1.2
       cli-boxes: 3.0.0
       string-width: 5.1.2
-      type-fest: 2.15.1
+      type-fest: 2.16.0
       widest-line: 4.0.1
       wrap-ansi: 8.0.1
     dev: true
@@ -1091,8 +1091,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001361
-      electron-to-chromium: 1.4.176
+      caniuse-lite: 1.0.30001363
+      electron-to-chromium: 1.4.177
       node-releases: 2.0.5
       update-browserslist-db: 1.0.4_browserslist@4.21.1
     dev: true
@@ -1126,8 +1126,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001361:
-    resolution: {integrity: sha512-ybhCrjNtkFji1/Wto6SSJKkWk6kZgVQsDq5QI83SafsF6FXv2JB4df9eEdH6g8sdGgqTXrFLjAxqBGgYoU3azQ==}
+  /caniuse-lite/1.0.30001363:
+    resolution: {integrity: sha512-HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg==}
     dev: true
 
   /ccount/2.0.1:
@@ -1375,8 +1375,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium/1.4.176:
-    resolution: {integrity: sha512-92JdgyRlcNDwuy75MjuFSb3clt6DGJ2IXSpg0MCjKd3JV9eSmuUAIyWiGAp/EtT0z2D4rqbYqThQLV90maH3Zw==}
+  /electron-to-chromium/1.4.177:
+    resolution: {integrity: sha512-FYPir3NSBEGexSZUEeht81oVhHfLFl6mhUKSkjHN/iB/TwEIt/WHQrqVGfTLN5gQxwJCQkIJBe05eOXjI7omgg==}
     dev: true
 
   /emmet/2.3.6:
@@ -2529,7 +2529,7 @@ packages:
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
       unist-util-stringify-position: 3.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2676,7 +2676,7 @@ packages:
       micromark-util-subtokenize: 1.0.2
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm-autolink-literal/1.0.3:
@@ -2686,7 +2686,7 @@ packages:
       micromark-util-sanitize-uri: 1.0.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm-footnote/1.0.4:
@@ -2699,7 +2699,7 @@ packages:
       micromark-util-sanitize-uri: 1.0.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm-strikethrough/1.0.4:
@@ -2710,7 +2710,7 @@ packages:
       micromark-util-resolve-all: 1.0.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm-table/1.0.5:
@@ -2720,7 +2720,7 @@ packages:
       micromark-util-character: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm-tagfilter/1.0.1:
@@ -2736,7 +2736,7 @@ packages:
       micromark-util-character: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-gfm/2.0.1:
@@ -2761,7 +2761,7 @@ packages:
       micromark-util-events-to-acorn: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-extension-mdx-md/1.0.0:
@@ -2784,7 +2784,7 @@ packages:
       micromark-util-character: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-factory-mdx-expression/1.0.6:
@@ -2796,7 +2796,7 @@ packages:
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
       unist-util-position-from-estree: 1.1.1
-      uvu: 0.5.4
+      uvu: 0.5.6
       vfile-message: 3.1.2
     dev: true
 
@@ -2814,7 +2814,7 @@ packages:
       micromark-util-character: 1.1.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-factory-whitespace/1.0.0:
@@ -2880,7 +2880,7 @@ packages:
       '@types/estree': 0.0.51
       estree-util-visit: 1.1.0
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
       vfile-location: 4.0.1
       vfile-message: 3.1.2
     dev: true
@@ -2915,7 +2915,7 @@ packages:
       micromark-util-chunked: 1.0.0
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     dev: true
 
   /micromark-util-symbol/1.0.1:
@@ -2945,7 +2945,7 @@ packages:
       micromark-util-subtokenize: 1.0.2
       micromark-util-symbol: 1.0.1
       micromark-util-types: 1.0.2
-      uvu: 0.5.4
+      uvu: 0.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4001,8 +4001,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /type-fest/2.15.1:
-    resolution: {integrity: sha512-LYSjcIz3NmoQksXq/3/B7Nfad+T8mkaI628agAAnHCpXPTBRMK2ygt3eABpzII8CbZZM8dLdVQ4Gr8ousjFjMw==}
+  /type-fest/2.16.0:
+    resolution: {integrity: sha512-qpaThT2HQkFb83gMOrdKVsfCN7LKxP26Yq+smPzY1FqoHRjqmjqHXA7n5Gkxi8efirtbeEUxzfEdePthQWCuHw==}
     engines: {node: '>=12.20'}
     dev: true
 
@@ -4210,8 +4210,8 @@ packages:
       which-typed-array: 1.1.8
     dev: true
 
-  /uvu/0.5.4:
-    resolution: {integrity: sha512-x1CyUjcP9VKaNPhjeB3FIc/jqgLsz2Q9LFhRzUTu/jnaaHILEGNuE0XckQonl8ISLcwyk9I2EZvWlYsQnwxqvQ==}
+  /uvu/0.5.6:
+    resolution: {integrity: sha512-+g8ENReyr8YsOc6fv/NVJs2vFdHBnBNdfE49rshrTzDWOlUx4Gq7KOS2GD8eqhy2j+Ejq29+SbKH8yjkAqXqoA==}
     engines: {node: '>=8'}
     hasBin: true
     dependencies:

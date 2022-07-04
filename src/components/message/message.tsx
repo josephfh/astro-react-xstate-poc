@@ -7,10 +7,10 @@ const Message: FC = memo(() => {
   const message = useSelector(rootState, getTestMessage)
   return (
     <>
-    {message}
-        <button
+      {message}
+      <button
         className={'p-1 rounded-lg border text-sm border-gray-600'}
-         onClick={() => 
+        onClick={() =>
           rootState.send({ type: 'update' })
         }>Change</button>
     </>
